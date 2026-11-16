@@ -1,0 +1,307 @@
+{
+  "contract": "0x56B6Af18CB55a758EF64C638093f3b0D7c97fDd3",
+  "deployment": "0x06d5a6573d9f6fc73f6b2e1c639a195bf40dd22657fb9aa28707d0d555d0e647",
+  "revision": "9defbff488c63479e801c9d71cc247b77dae2d90",
+  "source_sha256": "414ca5a738941c64ca45481f29d10a81226e93fbf78059fe5d351fa2a9301ff7",
+  "relays": [
+    "https://api.drand.sh",
+    "https://drand.cloudflare.com"
+  ],
+  "chain": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+  "candidate_count": 4,
+  "trace": [
+    {
+      "label": "deploy",
+      "hash": "0x06d5a6573d9f6fc73f6b2e1c639a195bf40dd22657fb9aa28707d0d555d0e647",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x4286b1546383ba95cb3c49624578f73caf4f7aa5",
+      "args": {
+        "args": [
+          "br1:{\"tasks\":[\"abstract\",\"benchmark\",\"data\",\"methods\"],\"reviewers\":[\"amy\",\"ben\",\"cam\",\"dev\"],\"eligible\":{\"abstract\":[\"amy\",\"cam\",\"dev\"],\"benchmark\":[\"amy\",\"ben\"],\"data\":[\"ben\",\"cam\",\"dev\"],\"methods\":[\"amy\",\"cam\"]}}"
+        ]
+      },
+      "error": null,
+      "state": {
+        "available_at": 1794839316,
+        "matchings": 4,
+        "result": null,
+        "roster": {
+          "eligible": {
+            "abstract": [
+              "amy",
+              "cam",
+              "dev"
+            ],
+            "benchmark": [
+              "amy",
+              "ben"
+            ],
+            "data": [
+              "ben",
+              "cam",
+              "dev"
+            ],
+            "methods": [
+              "amy",
+              "cam"
+            ]
+          },
+          "reviewers": [
+            "amy",
+            "ben",
+            "cam",
+            "dev"
+          ],
+          "tasks": [
+            "abstract",
+            "benchmark",
+            "data",
+            "methods"
+          ]
+        },
+        "roster_sha256": "f531e2f9b727c732451ebaab4edc285821c07e78e35231ef644d1216cad08671",
+        "round": 34011984,
+        "sealed_at": 1794839136
+      }
+    },
+    {
+      "label": "early",
+      "hash": "0xafc0ed8a4b490cbc7ba34b1e6478fe9b6780eac0a841c1a5d86edeca82ab2709",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0xdeffc77e86f9e62e37570d52ea400638b71ebabc",
+      "args": {
+        "method": "draw",
+        "args": []
+      },
+      "error": "Beacon round not due",
+      "state": {
+        "available_at": 1794839316,
+        "matchings": 4,
+        "result": null,
+        "roster": {
+          "eligible": {
+            "abstract": [
+              "amy",
+              "cam",
+              "dev"
+            ],
+            "benchmark": [
+              "amy",
+              "ben"
+            ],
+            "data": [
+              "ben",
+              "cam",
+              "dev"
+            ],
+            "methods": [
+              "amy",
+              "cam"
+            ]
+          },
+          "reviewers": [
+            "amy",
+            "ben",
+            "cam",
+            "dev"
+          ],
+          "tasks": [
+            "abstract",
+            "benchmark",
+            "data",
+            "methods"
+          ]
+        },
+        "roster_sha256": "f531e2f9b727c732451ebaab4edc285821c07e78e35231ef644d1216cad08671",
+        "round": 34011984,
+        "sealed_at": 1794839136
+      }
+    },
+    {
+      "label": "settle",
+      "hash": "0xd0a2eb66cc47a6c1368e05018b9bbbff922b1f53102b8cbff64983f61267c008",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0xdeffc77e86f9e62e37570d52ea400638b71ebabc",
+      "args": {
+        "method": "draw",
+        "args": []
+      },
+      "error": null,
+      "state": {
+        "available_at": 1794839316,
+        "matchings": 4,
+        "result": {
+          "assignment": {
+            "abstract": "dev",
+            "benchmark": "amy",
+            "data": "ben",
+            "methods": "cam"
+          },
+          "beacon": {
+            "randomness": "8b6031edf65e66361301c0e64d9a5e6db79b1520a078f2a097dc0604c38ea976",
+            "round": 34011984,
+            "signature": "afd920a8adac57e10b068f17242e8fe304efbb7713934480d4df078790d370181b83fcd8831666981703f1d7f0237537"
+          },
+          "rank": 2
+        },
+        "roster": {
+          "eligible": {
+            "abstract": [
+              "amy",
+              "cam",
+              "dev"
+            ],
+            "benchmark": [
+              "amy",
+              "ben"
+            ],
+            "data": [
+              "ben",
+              "cam",
+              "dev"
+            ],
+            "methods": [
+              "amy",
+              "cam"
+            ]
+          },
+          "reviewers": [
+            "amy",
+            "ben",
+            "cam",
+            "dev"
+          ],
+          "tasks": [
+            "abstract",
+            "benchmark",
+            "data",
+            "methods"
+          ]
+        },
+        "roster_sha256": "f531e2f9b727c732451ebaab4edc285821c07e78e35231ef644d1216cad08671",
+        "round": 34011984,
+        "sealed_at": 1794839136
+      }
+    },
+    {
+      "label": "redraw",
+      "hash": "0xd0e0aa8abf73c8503c9f8579b315cb4a4b79d5234420da41b2e26c920158537d",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x4286b1546383ba95cb3c49624578f73caf4f7aa5",
+      "args": {
+        "method": "draw",
+        "args": []
+      },
+      "error": "Assignment already drawn",
+      "state": {
+        "available_at": 1794839316,
+        "matchings": 4,
+        "result": {
+          "assignment": {
+            "abstract": "dev",
+            "benchmark": "amy",
+            "data": "ben",
+            "methods": "cam"
+          },
+          "beacon": {
+            "randomness": "8b6031edf65e66361301c0e64d9a5e6db79b1520a078f2a097dc0604c38ea976",
+            "round": 34011984,
+            "signature": "afd920a8adac57e10b068f17242e8fe304efbb7713934480d4df078790d370181b83fcd8831666981703f1d7f0237537"
+          },
+          "rank": 2
+        },
+        "roster": {
+          "eligible": {
+            "abstract": [
+              "amy",
+              "cam",
+              "dev"
+            ],
+            "benchmark": [
+              "amy",
+              "ben"
+            ],
+            "data": [
+              "ben",
+              "cam",
+              "dev"
+            ],
+            "methods": [
+              "amy",
+              "cam"
+            ]
+          },
+          "reviewers": [
+            "amy",
+            "ben",
+            "cam",
+            "dev"
+          ],
+          "tasks": [
+            "abstract",
+            "benchmark",
+            "data",
+            "methods"
+          ]
+        },
+        "roster_sha256": "f531e2f9b727c732451ebaab4edc285821c07e78e35231ef644d1216cad08671",
+        "round": 34011984,
+        "sealed_at": 1794839136
+      }
+    }
+  ],
+  "independent": {
+    "beacon": {
+      "round": 34011984,
+      "signature": "afd920a8adac57e10b068f17242e8fe304efbb7713934480d4df078790d370181b83fcd8831666981703f1d7f0237537",
+      "randomness": "8b6031edf65e66361301c0e64d9a5e6db79b1520a078f2a097dc0604c38ea976"
+    },
+    "candidates": [
+      {
+        "abstract": "amy",
+        "benchmark": "ben",
+        "data": "dev",
+        "methods": "cam"
+      },
+      {
+        "abstract": "cam",
+        "benchmark": "ben",
+        "data": "dev",
+        "methods": "amy"
+      },
+      {
+        "abstract": "dev",
+        "benchmark": "amy",
+        "data": "ben",
+        "methods": "cam"
+      },
+      {
+        "abstract": "dev",
+        "benchmark": "ben",
+        "data": "cam",
+        "methods": "amy"
+      }
+    ],
+    "rank": 2
+  }
+}

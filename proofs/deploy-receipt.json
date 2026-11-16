@@ -1,0 +1,641 @@
+{
+  "hash": "0x06d5a6573d9f6fc73f6b2e1c639a195bf40dd22657fb9aa28707d0d555d0e647",
+  "from_address": "0x4286b1546383BA95cB3c49624578f73caf4F7aA5",
+  "to_address": "0x56B6Af18CB55a758EF64C638093f3b0D7c97fDd3",
+  "data": {
+    "calldata": "DgRhcmdzDbQNYnIxOnsidGFza3MiOlsiYWJzdHJhY3QiLCJiZW5jaG1hcmsiLCJkYXRhIiwibWV0aG9kcyJdLCJyZXZpZXdlcnMiOlsiYW15IiwiYmVuIiwiY2FtIiwiZGV2Il0sImVsaWdpYmxlIjp7ImFic3RyYWN0IjpbImFteSIsImNhbSIsImRldiJdLCJiZW5jaG1hcmsiOlsiYW15IiwiYmVuIl0sImRhdGEiOlsiYmVuIiwiY2FtIiwiZGV2Il0sIm1ldGhvZHMiOlsiYW15IiwiY2FtIl19fQ==",
+    "contract_code": "IyB7ICJEZXBlbmRzIjogInB5LWdlbmxheWVyOjFqYjQ1YWE4eW5oMmE5Yzl4bjNiN3FxaDhzbTVxOTNod2ZwN2pxbXdzZmhoOGpwejA5aDYiIH0KZnJvbSBnZW5sYXllciBpbXBvcnQgKgpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZSwgdGltZXpvbmUKZnJvbSBoYXNobGliIGltcG9ydCBzaGEyNTYKaW1wb3J0IGpzb24KaW1wb3J0IHJlCgoKQ0hBSU4gPSAnNTJkYjliYTcwZTBjYzBmNmVhZjc4MDNkZDA3NDQ3YTFmNTQ3NzczNWZkM2Y2NjE3OTJiYTk0NjAwYzg0ZTk3MScKUkVMQVlTID0gKCdodHRwczovL2FwaS5kcmFuZC5zaCcsICdodHRwczovL2RyYW5kLmNsb3VkZmxhcmUuY29tJykKR0VORVNJUyA9IDE2OTI4MDMzNjcKUEVSSU9EID0gMwpEUkFXX0RFTEFZID0gMTgwCkxBQkVMID0gcidbQS1aYS16MC05Xy1dezEsMjR9JwoKCmRlZiBmYWlsKG1lc3NhZ2UpOgogICAgcmFpc2UgZ2wudm0uVXNlckVycm9yKG1lc3NhZ2UpCgoKZGVmIG5vd19zZWNvbmRzKCk6CiAgICBkZWx0YSA9IGRhdGV0aW1lLm5vdyh0aW1lem9uZS51dGMpIC0gZGF0ZXRpbWUoMTk3MCwgMSwgMSwgdHppbmZvPXRpbWV6b25lLnV0YykKICAgIHJldHVybiBkZWx0YS5kYXlzICogODY0MDAgKyBkZWx0YS5zZWNvbmRzCgoKZGVmIHVuaXF1ZV9rZXlzKHBhaXJzKToKICAgIG9iaiA9IHt9CiAgICBmb3Iga2V5LCB2YWx1ZSBpbiBwYWlyczoKICAgICAgICBpZiBrZXkgaW4gb2JqOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCdEdXBsaWNhdGUgSlNPTiBrZXknKQogICAgICAgIG9ialtrZXldID0gdmFsdWUKICAgIHJldHVybiBvYmoKCgpkZWYgcGFyc2UodGV4dCwgcmVhc29uKToKICAgIHRyeToKICAgICAgICByZXR1cm4ganNvbi5sb2Fkcyh0ZXh0LCBvYmplY3RfcGFpcnNfaG9vaz11bmlxdWVfa2V5cykKICAgIGV4Y2VwdCBWYWx1ZUVycm9yOgogICAgICAgIGZhaWwocmVhc29uKQoKCmRlZiBlbmNvZGUoZGF0YSk6CiAgICByZXR1cm4ganNvbi5kdW1wcyhkYXRhLCBzb3J0X2tleXM9VHJ1ZSwgc2VwYXJhdG9ycz0oJywnLCAnOicpKQoKCmRlZiBsYWJlbHModmFsdWVzKToKICAgIHJldHVybiAoaXNpbnN0YW5jZSh2YWx1ZXMsIGxpc3QpIGFuZCAyIDw9IGxlbih2YWx1ZXMpIDw9IDEwIGFuZAogICAgICAgICAgICBhbGwoaXNpbnN0YW5jZSh2YWx1ZSwgc3RyKSBhbmQgcmUuZnVsbG1hdGNoKExBQkVMLCB2YWx1ZSkgZm9yIHZhbHVlIGluIHZhbHVlcykgYW5kCiAgICAgICAgICAgIGxlbihzZXQodmFsdWVzKSkgPT0gbGVuKHZhbHVlcykpCgoKZGVmIHJvc3Rlcl9mcm9tKHRleHQpOgogICAgaWYgbm90IHRleHQuc3RhcnRzd2l0aCgnYnIxOicpIG9yIGxlbih0ZXh0KSA+IDQwOTY6CiAgICAgICAgZmFpbCgnSW52YWxpZCByb3N0ZXInKQogICAgcm9zdGVyID0gcGFyc2UodGV4dFs0Ol0sICdJbnZhbGlkIHJvc3RlcicpCiAgICBpZiBub3QgaXNpbnN0YW5jZShyb3N0ZXIsIGRpY3QpIG9yIHNldChyb3N0ZXIpICE9IHsndGFza3MnLCAncmV2aWV3ZXJzJywgJ2VsaWdpYmxlJ306CiAgICAgICAgZmFpbCgnSW52YWxpZCByb3N0ZXInKQogICAgdGFza3MsIHJldmlld2VycywgZWxpZ2libGUgPSByb3N0ZXJbJ3Rhc2tzJ10sIHJvc3RlclsncmV2aWV3ZXJzJ10sIHJvc3RlclsnZWxpZ2libGUnXQogICAgaWYgbm90IGxhYmVscyh0YXNrcykgb3Igbm90IGxhYmVscyhyZXZpZXdlcnMpIG9yIGxlbih0YXNrcykgIT0gbGVuKHJldmlld2Vycyk6CiAgICAgICAgZmFpbCgnUHJvdmlkZSBlcXVhbCBudW1iZXJzIG9mIGRpc3RpbmN0IHRhc2tzIGFuZCByZXZpZXdlcnMnKQogICAgaWYgbm90IGlzaW5zdGFuY2UoZWxpZ2libGUsIGRpY3QpIG9yIHNldChlbGlnaWJsZSkgIT0gc2V0KHRhc2tzKToKICAgICAgICBmYWlsKCdQcm92aWRlIGVsaWdpYmlsaXR5IGZvciBldmVyeSB0YXNrJykKICAgIGZvciByb3cgaW4gZWxpZ2libGUudmFsdWVzKCk6CiAgICAgICAgaWYgKG5vdCBpc2luc3RhbmNlKHJvdywgbGlzdCkgb3Igbm90IDEgPD0gbGVuKHJvdykgPD0gbGVuKHJldmlld2Vycykgb3IKICAgICAgICAgICAgICAgIGFueShub3QgaXNpbnN0YW5jZSh2YWx1ZSwgc3RyKSBvciB2YWx1ZSBub3QgaW4gcmV2aWV3ZXJzIGZvciB2YWx1ZSBpbiByb3cpIG9yCiAgICAgICAgICAgICAgICBsZW4oc2V0KHJvdykpICE9IGxlbihyb3cpKToKICAgICAgICAgICAgZmFpbCgnSW52YWxpZCBlbGlnaWJsZSByZXZpZXdlciBsaXN0JykKICAgIHJldHVybiB7J3Rhc2tzJzogc29ydGVkKHRhc2tzKSwgJ3Jldmlld2Vycyc6IHNvcnRlZChyZXZpZXdlcnMpLAogICAgICAgICAgICAnZWxpZ2libGUnOiB7dGFzazogc29ydGVkKHJvdykgZm9yIHRhc2ssIHJvdyBpbiBlbGlnaWJsZS5pdGVtcygpfX0KCgpkZWYgb3B0aW9ucyhyb3N0ZXIpOgogICAgcmV2aWV3ZXJzID0ge3Jldmlld2VyOiAxIDw8IGl4IGZvciBpeCwgcmV2aWV3ZXIgaW4gZW51bWVyYXRlKHJvc3RlclsncmV2aWV3ZXJzJ10pfQogICAgcmV0dXJuIFtbcmV2aWV3ZXJzW3Jldmlld2VyXSBmb3IgcmV2aWV3ZXIgaW4gcm9zdGVyWydlbGlnaWJsZSddW3Rhc2tdXSBmb3IgdGFzayBpbiByb3N0ZXJbJ3Rhc2tzJ11dCgoKZGVmIGNvdW50ZXIocm93cyk6CiAgICBtZW1vID0ge30KCiAgICBkZWYgY291bnQodGFzaywgcmVtYWluaW5nKToKICAgICAgICBpZiB0YXNrID09IGxlbihyb3dzKToKICAgICAgICAgICAgcmV0dXJuIDEKICAgICAgICBrZXkgPSAodGFzaywgcmVtYWluaW5nKQogICAgICAgIGlmIGtleSBub3QgaW4gbWVtbzoKICAgICAgICAgICAgbWVtb1trZXldID0gc3VtKGNvdW50KHRhc2sgKyAxLCByZW1haW5pbmcgXiBiaXQpIGZvciBiaXQgaW4gcm93c1t0YXNrXSBpZiByZW1haW5pbmcgJiBiaXQpCiAgICAgICAgcmV0dXJuIG1lbW9ba2V5XQoKICAgIHJldHVybiBjb3VudAoKCmRlZiBjb3VudF9tYXRjaGluZ3Mocm9zdGVyKToKICAgIHJvd3MgPSBvcHRpb25zKHJvc3RlcikKICAgIHJldHVybiBjb3VudGVyKHJvd3MpKDAsICgxIDw8IGxlbihyb3dzKSkgLSAxKQoKCmRlZiB1bnJhbmsocm9zdGVyLCByYW5rKToKICAgIHJvd3MgPSBvcHRpb25zKHJvc3RlcikKICAgIGNvdW50ID0gY291bnRlcihyb3dzKQogICAgcmVtYWluaW5nID0gKDEgPDwgbGVuKHJvd3MpKSAtIDEKICAgIGFzc2lnbm1lbnQgPSB7fQogICAgZm9yIHRhc2ssIHJvdyBpbiBlbnVtZXJhdGUocm93cyk6CiAgICAgICAgZm9yIGJpdCBpbiByb3c6CiAgICAgICAgICAgIGlmIHJlbWFpbmluZyAmIGJpdDoKICAgICAgICAgICAgICAgIGNvbXBsZXRpb25zID0gY291bnQodGFzayArIDEsIHJlbWFpbmluZyBeIGJpdCkKICAgICAgICAgICAgICAgIGlmIHJhbmsgPCBjb21wbGV0aW9uczoKICAgICAgICAgICAgICAgICAgICByZXZpZXdlciA9IHJvc3RlclsncmV2aWV3ZXJzJ11bYml0LmJpdF9sZW5ndGgoKSAtIDFdCiAgICAgICAgICAgICAgICAgICAgYXNzaWdubWVudFtyb3N0ZXJbJ3Rhc2tzJ11bdGFza11dID0gcmV2aWV3ZXIKICAgICAgICAgICAgICAgICAgICByZW1haW5pbmcgXj0gYml0CiAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgICAgIHJhbmsgLT0gY29tcGxldGlvbnMKICAgICAgICBlbHNlOgogICAgICAgICAgICBmYWlsKCdBc3NpZ25tZW50IHJhbmsgaW52YXJpYW50JykKICAgIHJldHVybiBhc3NpZ25tZW50CgoKZGVmIHJlYWRfcm91bmQocmVsYXksIHJvdW5kX251bWJlcik6CiAgICByZXNwb25zZSA9IGdsLm5vbmRldC53ZWIuZ2V0KGYne3JlbGF5fS97Q0hBSU59L3B1YmxpYy97cm91bmRfbnVtYmVyfScpCiAgICBpZiByZXNwb25zZS5zdGF0dXMgIT0gMjAwIG9yIG5vdCAxIDw9IGxlbihyZXNwb25zZS5ib2R5KSA8PSA0MDk2OgogICAgICAgIGZhaWwoJ0JlYWNvbiByb3VuZCB1bmF2YWlsYWJsZScpCiAgICB0cnk6CiAgICAgICAgdGV4dCA9IHJlc3BvbnNlLmJvZHkuZGVjb2RlKCd1dGYtOCcpCiAgICBleGNlcHQgVW5pY29kZUVycm9yOgogICAgICAgIGZhaWwoJ0ludmFsaWQgYmVhY29uIHJlc3BvbnNlJykKICAgIHZhbHVlID0gcGFyc2UodGV4dCwgJ0ludmFsaWQgYmVhY29uIHJlc3BvbnNlJykKICAgIGlmIG5vdCBpc2luc3RhbmNlKHZhbHVlLCBkaWN0KSBvciB0eXBlKHZhbHVlLmdldCgncm91bmQnKSkgaXMgbm90IGludCBvciB2YWx1ZVsncm91bmQnXSAhPSByb3VuZF9udW1iZXI6CiAgICAgICAgZmFpbCgnQmVhY29uIHJvdW5kIG1pc21hdGNoJykKICAgIHNpZ25hdHVyZSwgcmFuZG9tbmVzcyA9IHZhbHVlLmdldCgnc2lnbmF0dXJlJyksIHZhbHVlLmdldCgncmFuZG9tbmVzcycpCiAgICBpZiAobm90IGlzaW5zdGFuY2Uoc2lnbmF0dXJlLCBzdHIpIG9yIG5vdCByZS5mdWxsbWF0Y2gocidbMC05YS1mXXs5Nn0nLCBzaWduYXR1cmUpIG9yCiAgICAgICAgICAgIG5vdCBpc2luc3RhbmNlKHJhbmRvbW5lc3MsIHN0cikgb3Igc2hhMjU2KGJ5dGVzLmZyb21oZXgoc2lnbmF0dXJlKSkuaGV4ZGlnZXN0KCkgIT0gcmFuZG9tbmVzcyk6CiAgICAgICAgZmFpbCgnQmVhY29uIGRpZ2VzdCBtaXNtYXRjaCcpCiAgICByZXR1cm4geydyb3VuZCc6IHJvdW5kX251bWJlciwgJ3NpZ25hdHVyZSc6IHNpZ25hdHVyZSwgJ3JhbmRvbW5lc3MnOiByYW5kb21uZXNzfQoKCmRlZiBvYnNlcnZlKHJvdW5kX251bWJlcik6CiAgICBkZWYgcmVhZCgpOgogICAgICAgIGZpcnN0LCBzZWNvbmQgPSBbcmVhZF9yb3VuZChyZWxheSwgcm91bmRfbnVtYmVyKSBmb3IgcmVsYXkgaW4gUkVMQVlTXQogICAgICAgIGlmIGZpcnN0ICE9IHNlY29uZDoKICAgICAgICAgICAgZmFpbCgnQmVhY29uIHJlbGF5cyBkaXNhZ3JlZScpCiAgICAgICAgcmV0dXJuIGZpcnN0CgogICAgZGVmIHZlcmlmeShwcm9wb3NhbCk6CiAgICAgICAgdHJ5OgogICAgICAgICAgICBpbmRlcGVuZGVudCA9IHJlYWQoKQogICAgICAgIGV4Y2VwdCBnbC52bS5Vc2VyRXJyb3IgYXMgZXJyb3I6CiAgICAgICAgICAgIHJldHVybiBub3QgaXNpbnN0YW5jZShwcm9wb3NhbCwgZ2wudm0uUmV0dXJuKSBhbmQgZ2V0YXR0cihwcm9wb3NhbCwgJ21lc3NhZ2UnLCBOb25lKSA9PSBlcnJvci5tZXNzYWdlCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCiAgICAgICAgcmV0dXJuIGlzaW5zdGFuY2UocHJvcG9zYWwsIGdsLnZtLlJldHVybikgYW5kIGVuY29kZShwcm9wb3NhbC5jYWxsZGF0YSkgPT0gZW5jb2RlKGluZGVwZW5kZW50KQoKICAgIHJldHVybiBnbC52bS5ydW5fbm9uZGV0X3Vuc2FmZShyZWFkLCB2ZXJpZnkpCgoKZGVmIHNhbXBsZV9yYW5rKHJhbmRvbW5lc3MsIHJvc3Rlcl9kaWdlc3QsIHJvdW5kX251bWJlciwgY291bnQpOgogICAgY2VpbGluZyA9IDEgPDwgMjU2CiAgICBjdXRvZmYgPSBjZWlsaW5nIC0gY2VpbGluZyAlIGNvdW50CiAgICBtYXRlcmlhbCA9IChiJ0JlYWNvblJvc3Rlci12MVwwJyArIHJvdW5kX251bWJlci50b19ieXRlcyg4LCAnYmlnJykgKwogICAgICAgICAgICAgICAgYnl0ZXMuZnJvbWhleChyb3N0ZXJfZGlnZXN0KSArIGJ5dGVzLmZyb21oZXgocmFuZG9tbmVzcykpCiAgICBmb3IgcmV0cnkgaW4gcmFuZ2UoMzIpOgogICAgICAgIGNhbmRpZGF0ZSA9IGludC5mcm9tX2J5dGVzKHNoYTI1NihtYXRlcmlhbCArIGJ5dGVzKFtyZXRyeV0pKS5kaWdlc3QoKSwgJ2JpZycpCiAgICAgICAgaWYgY2FuZGlkYXRlIDwgY3V0b2ZmOgogICAgICAgICAgICByZXR1cm4gY2FuZGlkYXRlICUgY291bnQKICAgIGZhaWwoJ05vIHNhbXBsZSBpbiBoYXNoIGJ1ZGdldCcpCgoKY2xhc3MgQmVhY29uUm9zdGVyKGdsLkNvbnRyYWN0KToKICAgIHJvc3Rlcjogc3RyCiAgICByb3VuZF9udW1iZXI6IHU2NAogICAgc2VhbGVkX2F0OiB1NjQKICAgIG1hdGNoaW5nczogdTY0CiAgICByZXN1bHQ6IHN0cgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCByb3N0ZXI6IHN0cik6CiAgICAgICAgY2Fub25pY2FsID0gcm9zdGVyX2Zyb20ocm9zdGVyKQogICAgICAgIGNvdW50ID0gY291bnRfbWF0Y2hpbmdzKGNhbm9uaWNhbCkKICAgICAgICBpZiBjb3VudCA9PSAwOgogICAgICAgICAgICBmYWlsKCdObyBjb21wbGV0ZSBlbGlnaWJsZSBhc3NpZ25tZW50JykKICAgICAgICBzZWFsZWQgPSBub3dfc2Vjb25kcygpCiAgICAgICAgaWYgc2VhbGVkIDwgR0VORVNJUzoKICAgICAgICAgICAgZmFpbCgnVHJhbnNhY3Rpb24gdGltZSBiZWZvcmUgYmVhY29uIGdlbmVzaXMnKQogICAgICAgIHNlbGYucm9zdGVyID0gZW5jb2RlKGNhbm9uaWNhbCkKICAgICAgICBzZWxmLm1hdGNoaW5ncyA9IHU2NChjb3VudCkKICAgICAgICBzZWxmLnNlYWxlZF9hdCA9IHU2NChzZWFsZWQpCiAgICAgICAgc2VsZi5yb3VuZF9udW1iZXIgPSB1NjQoMSArIChzZWFsZWQgKyBEUkFXX0RFTEFZIC0gR0VORVNJUyArIFBFUklPRCAtIDEpIC8vIFBFUklPRCkKICAgICAgICBzZWxmLnJlc3VsdCA9ICcnCgogICAgZGVmIF9hdmFpbGFibGVfYXQoc2VsZik6CiAgICAgICAgcmV0dXJuIEdFTkVTSVMgKyAoaW50KHNlbGYucm91bmRfbnVtYmVyKSAtIDEpICogUEVSSU9ECgogICAgQGdsLnB1YmxpYy53cml0ZQogICAgZGVmIGRyYXcoc2VsZikgLT4gTm9uZToKICAgICAgICBpZiBzZWxmLnJlc3VsdDoKICAgICAgICAgICAgZmFpbCgnQXNzaWdubWVudCBhbHJlYWR5IGRyYXduJykKICAgICAgICBpZiBub3dfc2Vjb25kcygpIDwgc2VsZi5fYXZhaWxhYmxlX2F0KCk6CiAgICAgICAgICAgIGZhaWwoJ0JlYWNvbiByb3VuZCBub3QgZHVlJykKICAgICAgICByb3VuZF9udW1iZXIgPSBpbnQoc2VsZi5yb3VuZF9udW1iZXIpCiAgICAgICAgYmVhY29uID0gb2JzZXJ2ZShyb3VuZF9udW1iZXIpCiAgICAgICAgcmFuayA9IHNhbXBsZV9yYW5rKGJlYWNvblsncmFuZG9tbmVzcyddLCBzaGEyNTYoc2VsZi5yb3N0ZXIuZW5jb2RlKCkpLmhleGRpZ2VzdCgpLAogICAgICAgICAgICAgICAgICAgICAgICAgICByb3VuZF9udW1iZXIsIGludChzZWxmLm1hdGNoaW5ncykpCiAgICAgICAgc2VsZi5yZXN1bHQgPSBlbmNvZGUoeydiZWFjb24nOiBiZWFjb24sICdyYW5rJzogcmFuaywgJ2Fzc2lnbm1lbnQnOiB1bnJhbmsoanNvbi5sb2FkcyhzZWxmLnJvc3RlciksIHJhbmspfSkKCiAgICBAZ2wucHVibGljLnZpZXcKICAgIGRlZiBnZXRfc3RhdGUoc2VsZikgLT4gZGljdDoKICAgICAgICByZXR1cm4geydyb3N0ZXInOiBqc29uLmxvYWRzKHNlbGYucm9zdGVyKSwgJ3Jvc3Rlcl9zaGEyNTYnOiBzaGEyNTYoc2VsZi5yb3N0ZXIuZW5jb2RlKCkpLmhleGRpZ2VzdCgpLAogICAgICAgICAgICAgICAgJ21hdGNoaW5ncyc6IGludChzZWxmLm1hdGNoaW5ncyksICdzZWFsZWRfYXQnOiBpbnQoc2VsZi5zZWFsZWRfYXQpLAogICAgICAgICAgICAgICAgJ3JvdW5kJzogaW50KHNlbGYucm91bmRfbnVtYmVyKSwgJ2F2YWlsYWJsZV9hdCc6IHNlbGYuX2F2YWlsYWJsZV9hdCgpLAogICAgICAgICAgICAgICAgJ3Jlc3VsdCc6IGpzb24ubG9hZHMoc2VsZi5yZXN1bHQpIGlmIHNlbGYucmVzdWx0IGVsc2UgTm9uZX0KCiAgICBAZ2wucHVibGljLnZpZXcKICAgIGRlZiBhc3NpZ25tZW50X2F0KHNlbGYsIHJhbms6IGludCkgLT4gZGljdDoKICAgICAgICBpZiB0eXBlKHJhbmspIGlzIG5vdCBpbnQgb3Igbm90IDAgPD0gcmFuayA8IGludChzZWxmLm1hdGNoaW5ncyk6CiAgICAgICAgICAgIGZhaWwoJ0ludmFsaWQgYXNzaWdubWVudCByYW5rJykKICAgICAgICByZXR1cm4gdW5yYW5rKGpzb24ubG9hZHMoc2VsZi5yb3N0ZXIpLCByYW5rKQo=",
+    "contract_address": "0x56B6Af18CB55a758EF64C638093f3b0D7c97fDd3"
+  },
+  "value": 0,
+  "type": 1,
+  "status": "FINALIZED",
+  "result": 6,
+  "consensus_data": {
+    "votes": {
+      "0x0533e32Ae90B9065476eB89C2Bb655eCD98764BD": "agree",
+      "0xB64c3Fa67e1f33aA1EFc721B7Ac763f2070fCcA3": "idle",
+      "0xCCE41534BAa355c2C268Ebd9EFE4a9D395cd659B": "idle",
+      "0xc4Ab6B9D74c72EB38D43645318Bb4aFb518a09be": "agree",
+      "0xf20Cb474E5be2f56EA6Be925D057c28f458270da": "agree"
+    },
+    "validators": [
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "result": "AAA=",
+        "calldata": "DgRhcmdzDbQNYnIxOnsidGFza3MiOlsiYWJzdHJhY3QiLCJiZW5jaG1hcmsiLCJkYXRhIiwibWV0aG9kcyJdLCJyZXZpZXdlcnMiOlsiYW15IiwiYmVuIiwiY2FtIiwiZGV2Il0sImVsaWdpYmxlIjp7ImFic3RyYWN0IjpbImFteSIsImNhbSIsImRldiJdLCJiZW5jaG1hcmsiOlsiYW15IiwiYmVuIl0sImRhdGEiOlsiYmVuIiwiY2FtIiwiZGV2Il0sIm1ldGhvZHMiOlsiYW15IiwiY2FtIl19fQ==",
+        "gas_used": 0,
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "contract_state": {},
+        "execution_stats": {
+          "call_counts": {
+            "STORAGE_READ": 13,
+            "NOTIFY_FINISHED": 1
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 3374.701031046,
+          "host_loop_enter_wait_ms": 52,
+          "host_time_per_method_ms": {
+            "STORAGE_READ": 3
+          },
+          "host_total_handling_time_ms": 3,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 5
+          },
+          "host_first_method_received_s": 3374.702715511,
+          "host_accept_to_first_method_ms": 2
+        },
+        "nondet_disagree": null,
+        "processing_time": 1106,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "7cc862ce517c3822aa6e3423d73aec62a07e56f05d95020beac4ac436d87c5e4",
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "idle",
+        "result": "AmlkbGU=",
+        "calldata": "",
+        "gas_used": 0,
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "contract_state": {},
+        "execution_stats": null,
+        "nondet_disagree": null,
+        "processing_time": 0,
+        "execution_result": "ERROR",
+        "contract_state_hash": null,
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "result": "AAA=",
+        "calldata": "DgRhcmdzDbQNYnIxOnsidGFza3MiOlsiYWJzdHJhY3QiLCJiZW5jaG1hcmsiLCJkYXRhIiwibWV0aG9kcyJdLCJyZXZpZXdlcnMiOlsiYW15IiwiYmVuIiwiY2FtIiwiZGV2Il0sImVsaWdpYmxlIjp7ImFic3RyYWN0IjpbImFteSIsImNhbSIsImRldiJdLCJiZW5jaG1hcmsiOlsiYW15IiwiYmVuIl0sImRhdGEiOlsiYmVuIiwiY2FtIiwiZGV2Il0sIm1ldGhvZHMiOlsiYW15IiwiY2FtIl19fQ==",
+        "gas_used": 0,
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "contract_state": {},
+        "execution_stats": {
+          "call_counts": {
+            "STORAGE_READ": 13,
+            "NOTIFY_FINISHED": 1
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 3375.663738879,
+          "host_loop_enter_wait_ms": 1014,
+          "host_time_per_method_ms": {
+            "STORAGE_READ": 20
+          },
+          "host_total_handling_time_ms": 20,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 1004
+          },
+          "host_first_method_received_s": 3375.663846602,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": null,
+        "processing_time": 1351,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "7cc862ce517c3822aa6e3423d73aec62a07e56f05d95020beac4ac436d87c5e4",
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "idle",
+        "result": "AmlkbGU=",
+        "calldata": "",
+        "gas_used": 0,
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "contract_state": {},
+        "execution_stats": null,
+        "nondet_disagree": null,
+        "processing_time": 0,
+        "execution_result": "ERROR",
+        "contract_state_hash": null,
+        "pending_transactions": []
+      }
+    ],
+    "leader_receipt": [
+      {
+        "mode": "leader",
+        "vote": null,
+        "result": "AAA=",
+        "calldata": "DgRhcmdzDbQNYnIxOnsidGFza3MiOlsiYWJzdHJhY3QiLCJiZW5jaG1hcmsiLCJkYXRhIiwibWV0aG9kcyJdLCJyZXZpZXdlcnMiOlsiYW15IiwiYmVuIiwiY2FtIiwiZGV2Il0sImVsaWdpYmxlIjp7ImFic3RyYWN0IjpbImFteSIsImNhbSIsImRldiJdLCJiZW5jaG1hcmsiOlsiYW15IiwiYmVuIl0sImRhdGEiOlsiYmVuIiwiY2FtIiwiZGV2Il0sIm1ldGhvZHMiOlsiYW15IiwiY2FtIl19fQ==",
+        "gas_used": 0,
+        "eq_outputs": {},
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "execution_stats": {
+          "call_counts": {
+            "STORAGE_READ": 13,
+            "NOTIFY_FINISHED": 1
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 3373.454568138,
+          "host_loop_enter_wait_ms": 17,
+          "host_time_per_method_ms": {
+            "STORAGE_READ": 2
+          },
+          "host_total_handling_time_ms": 2,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 16
+          },
+          "host_first_method_received_s": 3373.45466488,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": null,
+        "processing_time": 1018,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "7cc862ce517c3822aa6e3423d73aec62a07e56f05d95020beac4ac436d87c5e4",
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "result": "AAA=",
+        "calldata": "DgRhcmdzDbQNYnIxOnsidGFza3MiOlsiYWJzdHJhY3QiLCJiZW5jaG1hcmsiLCJkYXRhIiwibWV0aG9kcyJdLCJyZXZpZXdlcnMiOlsiYW15IiwiYmVuIiwiY2FtIiwiZGV2Il0sImVsaWdpYmxlIjp7ImFic3RyYWN0IjpbImFteSIsImNhbSIsImRldiJdLCJiZW5jaG1hcmsiOlsiYW15IiwiYmVuIl0sImRhdGEiOlsiYmVuIiwiY2FtIiwiZGV2Il0sIm1ldGhvZHMiOlsiYW15IiwiY2FtIl19fQ==",
+        "gas_used": 0,
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "execution_stats": {
+          "call_counts": {
+            "STORAGE_READ": 13,
+            "NOTIFY_FINISHED": 1
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 3374.700917614,
+          "host_loop_enter_wait_ms": 52,
+          "host_time_per_method_ms": {
+            "STORAGE_READ": 4
+          },
+          "host_total_handling_time_ms": 4,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 6
+          },
+          "host_first_method_received_s": 3374.702824174,
+          "host_accept_to_first_method_ms": 2
+        },
+        "nondet_disagree": null,
+        "processing_time": 1118,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "7cc862ce517c3822aa6e3423d73aec62a07e56f05d95020beac4ac436d87c5e4",
+        "pending_transactions": []
+      }
+    ]
+  },
+  "gaslimit": 0,
+  "nonce": 0,
+  "r": null,
+  "s": null,
+  "v": null,
+  "created_at": "2026-11-16T14:25:36.228944+00:00",
+  "leader_only": false,
+  "execution_mode": "NORMAL",
+  "origin_address": "0x4286b1546383BA95cB3c49624578f73caf4F7aA5",
+  "triggered_by": null,
+  "triggered_on": null,
+  "triggered_transactions": [],
+  "appealed": false,
+  "timestamp_awaiting_finalization": 1794839139,
+  "appeal_failed": 0,
+  "appeal_undetermined": false,
+  "consensus_history": {
+    "consensus_results": [
+      {
+        "monitoring": {
+          "PENDING": 1794839136.5781472,
+          "ACCEPTED": 1794839139.2560034,
+          "PROPOSING": 1794839136.586255,
+          "REVEALING": 1794839139.2234938,
+          "COMMITTING": 1794839137.6876867,
+          "PROPOSING.LEADER.DEPLOY_END": 1794839137.6581292,
+          "PROPOSING.LEADER.EXEC_START": 1794839136.6109052,
+          "PROPOSING.LEADER.DEPLOY_START": 1794839136.6142588,
+          "PROPOSING.VALIDATORS_SELECTED": 1794839136.603714,
+          "COMMITTING.VALIDATORS_PREPARED": 1794839137.696453,
+          "PROPOSING.TRANSACTION_EXECUTED": 1794839137.66601,
+          "PROPOSING.LEADER.DECODE_COMPLETE": 1794839136.6175718,
+          "PROPOSING.LEADER.RECEIPT_CREATED": 1794839137.6618495,
+          "COMMITTING.VALIDATOR_0.DEPLOY_END": 1794839138.8706217,
+          "COMMITTING.VALIDATOR_0.EXEC_START": 1794839137.722114,
+          "COMMITTING.VALIDATOR_1.DEPLOY_END": 1794839138.8830414,
+          "COMMITTING.VALIDATOR_1.EXEC_START": 1794839137.7476685,
+          "COMMITTING.VALIDATOR_2.EXEC_START": 1794839137.7723348,
+          "COMMITTING.VALIDATOR_3.DEPLOY_END": 1794839139.1791768,
+          "COMMITTING.VALIDATOR_3.EXEC_START": 1794839137.7976224,
+          "COMMITTING.VALIDATOR_4.EXEC_START": 1794839137.8235996,
+          "COMMITTING.VALIDATORS_EXECUTION_END": 1794839139.1912265,
+          "COMMITTING.VALIDATOR_0.DEPLOY_START": 1794839137.7270048,
+          "COMMITTING.VALIDATOR_1.DEPLOY_START": 1794839137.7510283,
+          "COMMITTING.VALIDATOR_2.DEPLOY_START": 1794839137.7755003,
+          "COMMITTING.VALIDATOR_3.DEPLOY_START": 1794839137.8009703,
+          "COMMITTING.VALIDATOR_4.DEPLOY_START": 1794839137.8267972,
+          "PROPOSING.LEADER.EXECUTION_FINISHED": 1794839137.6538703,
+          "COMMITTING.VALIDATOR_0_END.attempt_0": 1794839138.8906019,
+          "COMMITTING.VALIDATOR_1_END.attempt_0": 1794839138.8948796,
+          "COMMITTING.VALIDATOR_3_END.attempt_0": 1794839139.186651,
+          "COMMITTING.VALIDATORS_EXECUTION_START": 1794839137.6999876,
+          "COMMITTING.VALIDATION_RESULTS_GATHERED": 1794839139.1948307,
+          "COMMITTING.VALIDATOR_0.DECODE_COMPLETE": 1794839137.7304769,
+          "COMMITTING.VALIDATOR_0.RECEIPT_CREATED": 1794839138.874242,
+          "COMMITTING.VALIDATOR_0_START.attempt_0": 1794839137.7041137,
+          "COMMITTING.VALIDATOR_1.DECODE_COMPLETE": 1794839137.7549007,
+          "COMMITTING.VALIDATOR_1.RECEIPT_CREATED": 1794839138.8866038,
+          "COMMITTING.VALIDATOR_1_START.attempt_0": 1794839137.7076325,
+          "COMMITTING.VALIDATOR_2.DECODE_COMPLETE": 1794839137.7791061,
+          "COMMITTING.VALIDATOR_2_START.attempt_0": 1794839137.7116764,
+          "COMMITTING.VALIDATOR_3.DECODE_COMPLETE": 1794839137.8048513,
+          "COMMITTING.VALIDATOR_3.RECEIPT_CREATED": 1794839139.1826692,
+          "COMMITTING.VALIDATOR_3_START.attempt_0": 1794839137.7154968,
+          "COMMITTING.VALIDATOR_4.DECODE_COMPLETE": 1794839137.8301165,
+          "COMMITTING.VALIDATOR_4_START.attempt_0": 1794839137.7188342,
+          "PROPOSING.LEADER.GENVM_EXECUTION_START": 1794839136.6321673,
+          "PROPOSING.LEADER.SNAPSHOT_CREATION_END": 1794839136.6286716,
+          "PROPOSING.LEADER_NODE_CREATED.attempt_0": 1794839136.6072586,
+          "PROPOSING.LEADER.GENVM_PREPARATION_START": 1794839136.6210115,
+          "PROPOSING.LEADER.SNAPSHOT_CREATION_START": 1794839136.6249237,
+          "COMMITTING.VALIDATOR_0.EXECUTION_FINISHED": 1794839138.8660073,
+          "COMMITTING.VALIDATOR_1.EXECUTION_FINISHED": 1794839138.8793721,
+          "COMMITTING.VALIDATOR_3.EXECUTION_FINISHED": 1794839139.1747983,
+          "COMMITTING.VALIDATOR_0.GENVM_EXECUTION_START": 1794839137.743452,
+          "COMMITTING.VALIDATOR_0.SNAPSHOT_CREATION_END": 1794839137.7402575,
+          "COMMITTING.VALIDATOR_1.GENVM_EXECUTION_START": 1794839137.7687137,
+          "COMMITTING.VALIDATOR_1.SNAPSHOT_CREATION_END": 1794839137.7651074,
+          "COMMITTING.VALIDATOR_2.GENVM_EXECUTION_START": 1794839137.7925463,
+          "COMMITTING.VALIDATOR_2.SNAPSHOT_CREATION_END": 1794839137.7890916,
+          "COMMITTING.VALIDATOR_3.GENVM_EXECUTION_START": 1794839137.8196146,
+          "COMMITTING.VALIDATOR_3.SNAPSHOT_CREATION_END": 1794839137.8158047,
+          "COMMITTING.VALIDATOR_4.GENVM_EXECUTION_START": 1794839137.8442311,
+          "COMMITTING.VALIDATOR_4.SNAPSHOT_CREATION_END": 1794839137.8408751,
+          "COMMITTING.VALIDATOR_0.GENVM_PREPARATION_START": 1794839137.7337494,
+          "COMMITTING.VALIDATOR_0.SNAPSHOT_CREATION_START": 1794839137.7370498,
+          "COMMITTING.VALIDATOR_1.GENVM_PREPARATION_START": 1794839137.7583168,
+          "COMMITTING.VALIDATOR_1.SNAPSHOT_CREATION_START": 1794839137.761531,
+          "COMMITTING.VALIDATOR_2.GENVM_PREPARATION_START": 1794839137.7823908,
+          "COMMITTING.VALIDATOR_2.SNAPSHOT_CREATION_START": 1794839137.785636,
+          "COMMITTING.VALIDATOR_3.GENVM_PREPARATION_START": 1794839137.8083897,
+          "COMMITTING.VALIDATOR_3.SNAPSHOT_CREATION_START": 1794839137.812069,
+          "COMMITTING.VALIDATOR_4.GENVM_PREPARATION_START": 1794839137.833933,
+          "COMMITTING.VALIDATOR_4.SNAPSHOT_CREATION_START": 1794839137.8373585
+        },
+        "leader_result": [
+          {
+            "mode": "leader",
+            "vote": null,
+            "result": "AAA=",
+            "calldata": "DgRhcmdzDbQNYnIxOnsidGFza3MiOlsiYWJzdHJhY3QiLCJiZW5jaG1hcmsiLCJkYXRhIiwibWV0aG9kcyJdLCJyZXZpZXdlcnMiOlsiYW15IiwiYmVuIiwiY2FtIiwiZGV2Il0sImVsaWdpYmxlIjp7ImFic3RyYWN0IjpbImFteSIsImNhbSIsImRldiJdLCJiZW5jaG1hcmsiOlsiYW15IiwiYmVuIl0sImRhdGEiOlsiYmVuIiwiY2FtIiwiZGV2Il0sIm1ldGhvZHMiOlsiYW15IiwiY2FtIl19fQ==",
+            "gas_used": 0,
+            "eq_outputs": {},
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "call_counts": {
+                "STORAGE_READ": 13,
+                "NOTIFY_FINISHED": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 3373.454568138,
+              "host_loop_enter_wait_ms": 17,
+              "host_time_per_method_ms": {
+                "STORAGE_READ": 2
+              },
+              "host_total_handling_time_ms": 2,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 16
+              },
+              "host_first_method_received_s": 3373.45466488,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 1018,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "7cc862ce517c3822aa6e3423d73aec62a07e56f05d95020beac4ac436d87c5e4",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "agree",
+            "result": "AAA=",
+            "calldata": "DgRhcmdzDbQNYnIxOnsidGFza3MiOlsiYWJzdHJhY3QiLCJiZW5jaG1hcmsiLCJkYXRhIiwibWV0aG9kcyJdLCJyZXZpZXdlcnMiOlsiYW15IiwiYmVuIiwiY2FtIiwiZGV2Il0sImVsaWdpYmxlIjp7ImFic3RyYWN0IjpbImFteSIsImNhbSIsImRldiJdLCJiZW5jaG1hcmsiOlsiYW15IiwiYmVuIl0sImRhdGEiOlsiYmVuIiwiY2FtIiwiZGV2Il0sIm1ldGhvZHMiOlsiYW15IiwiY2FtIl19fQ==",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "call_counts": {
+                "STORAGE_READ": 13,
+                "NOTIFY_FINISHED": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 3374.700917614,
+              "host_loop_enter_wait_ms": 52,
+              "host_time_per_method_ms": {
+                "STORAGE_READ": 4
+              },
+              "host_total_handling_time_ms": 4,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 6
+              },
+              "host_first_method_received_s": 3374.702824174,
+              "host_accept_to_first_method_ms": 2
+            },
+            "nondet_disagree": null,
+            "processing_time": 1118,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "7cc862ce517c3822aa6e3423d73aec62a07e56f05d95020beac4ac436d87c5e4",
+            "pending_transactions": []
+          }
+        ],
+        "status_changes": [
+          "PENDING",
+          "PROPOSING",
+          "COMMITTING",
+          "REVEALING",
+          "ACCEPTED"
+        ],
+        "consensus_round": "Accepted",
+        "validator_results": [
+          {
+            "mode": "validator",
+            "vote": "agree",
+            "result": "AAA=",
+            "calldata": "DgRhcmdzDbQNYnIxOnsidGFza3MiOlsiYWJzdHJhY3QiLCJiZW5jaG1hcmsiLCJkYXRhIiwibWV0aG9kcyJdLCJyZXZpZXdlcnMiOlsiYW15IiwiYmVuIiwiY2FtIiwiZGV2Il0sImVsaWdpYmxlIjp7ImFic3RyYWN0IjpbImFteSIsImNhbSIsImRldiJdLCJiZW5jaG1hcmsiOlsiYW15IiwiYmVuIl0sImRhdGEiOlsiYmVuIiwiY2FtIiwiZGV2Il0sIm1ldGhvZHMiOlsiYW15IiwiY2FtIl19fQ==",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "call_counts": {
+                "STORAGE_READ": 13,
+                "NOTIFY_FINISHED": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 3374.701031046,
+              "host_loop_enter_wait_ms": 52,
+              "host_time_per_method_ms": {
+                "STORAGE_READ": 3
+              },
+              "host_total_handling_time_ms": 3,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 5
+              },
+              "host_first_method_received_s": 3374.702715511,
+              "host_accept_to_first_method_ms": 2
+            },
+            "nondet_disagree": null,
+            "processing_time": 1106,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "7cc862ce517c3822aa6e3423d73aec62a07e56f05d95020beac4ac436d87c5e4",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "idle",
+            "result": "AmlkbGU=",
+            "calldata": "",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "Validator execution cancelled after quorum",
+              "stdout": "",
+              "raw_error": {
+                "fatal": false,
+                "causes": [
+                  "VALIDATOR_QUORUM_REACHED"
+                ]
+              },
+              "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+            },
+            "contract_state": {},
+            "execution_stats": null,
+            "nondet_disagree": null,
+            "processing_time": 0,
+            "execution_result": "ERROR",
+            "contract_state_hash": null,
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "agree",
+            "result": "AAA=",
+            "calldata": "DgRhcmdzDbQNYnIxOnsidGFza3MiOlsiYWJzdHJhY3QiLCJiZW5jaG1hcmsiLCJkYXRhIiwibWV0aG9kcyJdLCJyZXZpZXdlcnMiOlsiYW15IiwiYmVuIiwiY2FtIiwiZGV2Il0sImVsaWdpYmxlIjp7ImFic3RyYWN0IjpbImFteSIsImNhbSIsImRldiJdLCJiZW5jaG1hcmsiOlsiYW15IiwiYmVuIl0sImRhdGEiOlsiYmVuIiwiY2FtIiwiZGV2Il0sIm1ldGhvZHMiOlsiYW15IiwiY2FtIl19fQ==",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "call_counts": {
+                "STORAGE_READ": 13,
+                "NOTIFY_FINISHED": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 3375.663738879,
+              "host_loop_enter_wait_ms": 1014,
+              "host_time_per_method_ms": {
+                "STORAGE_READ": 20
+              },
+              "host_total_handling_time_ms": 20,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 1004
+              },
+              "host_first_method_received_s": 3375.663846602,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 1351,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "7cc862ce517c3822aa6e3423d73aec62a07e56f05d95020beac4ac436d87c5e4",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "idle",
+            "result": "AmlkbGU=",
+            "calldata": "",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "Validator execution cancelled after quorum",
+              "stdout": "",
+              "raw_error": {
+                "fatal": false,
+                "causes": [
+                  "VALIDATOR_QUORUM_REACHED"
+                ]
+              },
+              "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+            },
+            "contract_state": {},
+            "execution_stats": null,
+            "nondet_disagree": null,
+            "processing_time": 0,
+            "execution_result": "ERROR",
+            "contract_state_hash": null,
+            "pending_transactions": []
+          }
+        ]
+      }
+    ],
+    "current_monitoring": {
+      "FINALIZED": 1794839170.3460324,
+      "COMMITTING.VALIDATOR_2.DEPLOY_END": 1794839139.6896477,
+      "COMMITTING.VALIDATOR_4.DEPLOY_END": 1794839139.3043702,
+      "COMMITTING.VALIDATOR_2.RECEIPT_CREATED": 1794839139.719446,
+      "COMMITTING.VALIDATOR_4.RECEIPT_CREATED": 1794839139.3081298,
+      "COMMITTING.VALIDATOR_2.EXECUTION_FINISHED": 1794839139.6538033,
+      "COMMITTING.VALIDATOR_4.EXECUTION_FINISHED": 1794839139.3003263
+    },
+    "current_status_changes": [
+      "FINALIZED"
+    ]
+  },
+  "timestamp_appeal": null,
+  "appeal_processing_time": 0,
+  "config_rotation_rounds": 3,
+  "num_of_initial_validators": 5,
+  "last_vote_timestamp": "1794839139",
+  "rotation_count": 0,
+  "appeal_leader_timeout": false,
+  "leader_timeout_validators": [],
+  "appeal_validators_timeout": false,
+  "sim_config": {
+    "signed_rollup_transaction": "0xf9204980808307a12094b7278a61aa25c888815afc32ad3cc52ff24fe57580b91fe427241a990000000000000000000000004286b1546383ba95cb3c49624578f73caf4f7aa500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000001f11f91f0eb91e2923207b2022446570656e6473223a202270792d67656e6c617965723a316a623435616138796e683261396339786e33623771716838736d3571393368776670376a716d7773666868386a707a3039683622207d0a66726f6d2067656e6c6179657220696d706f7274202a0a66726f6d206461746574696d6520696d706f7274206461746574696d652c2074696d657a6f6e650a66726f6d20686173686c696220696d706f7274207368613235360a696d706f7274206a736f6e0a696d706f72742072650a0a0a434841494e203d202735326462396261373065306363306636656166373830336464303734343761316635343737373335666433663636313739326261393436303063383465393731270a52454c415953203d20282768747470733a2f2f6170692e6472616e642e7368272c202768747470733a2f2f6472616e642e636c6f7564666c6172652e636f6d27290a47454e45534953203d20313639323830333336370a504552494f44203d20330a445241575f44454c4159203d203138300a4c4142454c203d2072275b412d5a612d7a302d395f2d5d7b312c32347d270a0a0a646566206661696c286d657373616765293a0a20202020726169736520676c2e766d2e557365724572726f72286d657373616765290a0a0a646566206e6f775f7365636f6e647328293a0a2020202064656c7461203d206461746574696d652e6e6f772874696d657a6f6e652e75746329202d206461746574696d6528313937302c20312c20312c20747a696e666f3d74696d657a6f6e652e757463290a2020202072657475726e2064656c74612e64617973202a203836343030202b2064656c74612e7365636f6e64730a0a0a64656620756e697175655f6b657973287061697273293a0a202020206f626a203d207b7d0a20202020666f72206b65792c2076616c756520696e2070616972733a0a20202020202020206966206b657920696e206f626a3a0a20202020202020202020202072616973652056616c75654572726f7228274475706c6963617465204a534f4e206b657927290a20202020202020206f626a5b6b65795d203d2076616c75650a2020202072657475726e206f626a0a0a0a64656620706172736528746578742c20726561736f6e293a0a202020207472793a0a202020202020202072657475726e206a736f6e2e6c6f61647328746578742c206f626a6563745f70616972735f686f6f6b3d756e697175655f6b657973290a202020206578636570742056616c75654572726f723a0a20202020202020206661696c28726561736f6e290a0a0a64656620656e636f64652864617461293a0a2020202072657475726e206a736f6e2e64756d707328646174612c20736f72745f6b6579733d547275652c20736570617261746f72733d28272c272c20273a2729290a0a0a646566206c6162656c732876616c756573293a0a2020202072657475726e20286973696e7374616e63652876616c7565732c206c6973742920616e642032203c3d206c656e2876616c75657329203c3d20313020616e640a202020202020202020202020616c6c286973696e7374616e63652876616c75652c207374722920616e642072652e66756c6c6d61746368284c4142454c2c2076616c75652920666f722076616c756520696e2076616c7565732920616e640a2020202020202020202020206c656e287365742876616c7565732929203d3d206c656e2876616c75657329290a0a0a64656620726f737465725f66726f6d2874657874293a0a202020206966206e6f7420746578742e7374617274737769746828276272313a2729206f72206c656e287465787429203e20343039363a0a20202020202020206661696c2827496e76616c696420726f7374657227290a20202020726f73746572203d20706172736528746578745b343a5d2c2027496e76616c696420726f7374657227290a202020206966206e6f74206973696e7374616e636528726f737465722c206469637429206f722073657428726f737465722920213d207b277461736b73272c2027726576696577657273272c2027656c696769626c65277d3a0a20202020202020206661696c2827496e76616c696420726f7374657227290a202020207461736b732c207265766965776572732c20656c696769626c65203d20726f737465725b277461736b73275d2c20726f737465725b27726576696577657273275d2c20726f737465725b27656c696769626c65275d0a202020206966206e6f74206c6162656c73287461736b7329206f72206e6f74206c6162656c732872657669657765727329206f72206c656e287461736b732920213d206c656e28726576696577657273293a0a20202020202020206661696c282750726f7669646520657175616c206e756d62657273206f662064697374696e6374207461736b7320616e642072657669657765727327290a202020206966206e6f74206973696e7374616e636528656c696769626c652c206469637429206f722073657428656c696769626c652920213d20736574287461736b73293a0a20202020202020206661696c282750726f7669646520656c69676962696c69747920666f72206576657279207461736b27290a20202020666f7220726f7720696e20656c696769626c652e76616c75657328293a0a2020202020202020696620286e6f74206973696e7374616e636528726f772c206c69737429206f72206e6f742031203c3d206c656e28726f7729203c3d206c656e2872657669657765727329206f720a20202020202020202020202020202020616e79286e6f74206973696e7374616e63652876616c75652c2073747229206f722076616c7565206e6f7420696e2072657669657765727320666f722076616c756520696e20726f7729206f720a202020202020202020202020202020206c656e2873657428726f77292920213d206c656e28726f7729293a0a2020202020202020202020206661696c2827496e76616c696420656c696769626c65207265766965776572206c69737427290a2020202072657475726e207b277461736b73273a20736f72746564287461736b73292c2027726576696577657273273a20736f7274656428726576696577657273292c0a20202020202020202020202027656c696769626c65273a207b7461736b3a20736f7274656428726f772920666f72207461736b2c20726f7720696e20656c696769626c652e6974656d7328297d7d0a0a0a646566206f7074696f6e7328726f73746572293a0a20202020726576696577657273203d207b72657669657765723a2031203c3c20697820666f722069782c20726576696577657220696e20656e756d657261746528726f737465725b27726576696577657273275d297d0a2020202072657475726e205b5b7265766965776572735b72657669657765725d20666f7220726576696577657220696e20726f737465725b27656c696769626c65275d5b7461736b5d5d20666f72207461736b20696e20726f737465725b277461736b73275d5d0a0a0a64656620636f756e74657228726f7773293a0a202020206d656d6f203d207b7d0a0a2020202064656620636f756e74287461736b2c2072656d61696e696e67293a0a20202020202020206966207461736b203d3d206c656e28726f7773293a0a20202020202020202020202072657475726e20310a20202020202020206b6579203d20287461736b2c2072656d61696e696e67290a20202020202020206966206b6579206e6f7420696e206d656d6f3a0a2020202020202020202020206d656d6f5b6b65795d203d2073756d28636f756e74287461736b202b20312c2072656d61696e696e67205e206269742920666f722062697420696e20726f77735b7461736b5d2069662072656d61696e696e67202620626974290a202020202020202072657475726e206d656d6f5b6b65795d0a0a2020202072657475726e20636f756e740a0a0a64656620636f756e745f6d61746368696e677328726f73746572293a0a20202020726f7773203d206f7074696f6e7328726f73746572290a2020202072657475726e20636f756e74657228726f77732928302c202831203c3c206c656e28726f77732929202d2031290a0a0a64656620756e72616e6b28726f737465722c2072616e6b293a0a20202020726f7773203d206f7074696f6e7328726f73746572290a20202020636f756e74203d20636f756e74657228726f7773290a2020202072656d61696e696e67203d202831203c3c206c656e28726f77732929202d20310a2020202061737369676e6d656e74203d207b7d0a20202020666f72207461736b2c20726f7720696e20656e756d657261746528726f7773293a0a2020202020202020666f722062697420696e20726f773a0a20202020202020202020202069662072656d61696e696e672026206269743a0a20202020202020202020202020202020636f6d706c6574696f6e73203d20636f756e74287461736b202b20312c2072656d61696e696e67205e20626974290a2020202020202020202020202020202069662072616e6b203c20636f6d706c6574696f6e733a0a20202020202020202020202020202020202020207265766965776572203d20726f737465725b27726576696577657273275d5b6269742e6269745f6c656e6774682829202d20315d0a202020202020202020202020202020202020202061737369676e6d656e745b726f737465725b277461736b73275d5b7461736b5d5d203d2072657669657765720a202020202020202020202020202020202020202072656d61696e696e67205e3d206269740a2020202020202020202020202020202020202020627265616b0a2020202020202020202020202020202072616e6b202d3d20636f6d706c6574696f6e730a2020202020202020656c73653a0a2020202020202020202020206661696c282741737369676e6d656e742072616e6b20696e76617269616e7427290a2020202072657475726e2061737369676e6d656e740a0a0a64656620726561645f726f756e642872656c61792c20726f756e645f6e756d626572293a0a20202020726573706f6e7365203d20676c2e6e6f6e6465742e7765622e6765742866277b72656c61797d2f7b434841494e7d2f7075626c69632f7b726f756e645f6e756d6265727d27290a20202020696620726573706f6e73652e73746174757320213d20323030206f72206e6f742031203c3d206c656e28726573706f6e73652e626f647929203c3d20343039363a0a20202020202020206661696c2827426561636f6e20726f756e6420756e617661696c61626c6527290a202020207472793a0a202020202020202074657874203d20726573706f6e73652e626f64792e6465636f646528277574662d3827290a2020202065786365707420556e69636f64654572726f723a0a20202020202020206661696c2827496e76616c696420626561636f6e20726573706f6e736527290a2020202076616c7565203d20706172736528746578742c2027496e76616c696420626561636f6e20726573706f6e736527290a202020206966206e6f74206973696e7374616e63652876616c75652c206469637429206f7220747970652876616c75652e6765742827726f756e64272929206973206e6f7420696e74206f722076616c75655b27726f756e64275d20213d20726f756e645f6e756d6265723a0a20202020202020206661696c2827426561636f6e20726f756e64206d69736d6174636827290a202020207369676e61747572652c2072616e646f6d6e657373203d2076616c75652e67657428277369676e617475726527292c2076616c75652e676574282772616e646f6d6e65737327290a20202020696620286e6f74206973696e7374616e6365287369676e61747572652c2073747229206f72206e6f742072652e66756c6c6d617463682872275b302d39612d665d7b39367d272c207369676e617475726529206f720a2020202020202020202020206e6f74206973696e7374616e63652872616e646f6d6e6573732c2073747229206f72207368613235362862797465732e66726f6d686578287369676e617475726529292e686578646967657374282920213d2072616e646f6d6e657373293a0a20202020202020206661696c2827426561636f6e20646967657374206d69736d6174636827290a2020202072657475726e207b27726f756e64273a20726f756e645f6e756d6265722c20277369676e6174757265273a207369676e61747572652c202772616e646f6d6e657373273a2072616e646f6d6e6573737d0a0a0a646566206f62736572766528726f756e645f6e756d626572293a0a20202020646566207265616428293a0a202020202020202066697273742c207365636f6e64203d205b726561645f726f756e642872656c61792c20726f756e645f6e756d6265722920666f722072656c617920696e2052454c4159535d0a2020202020202020696620666972737420213d207365636f6e643a0a2020202020202020202020206661696c2827426561636f6e2072656c61797320646973616772656527290a202020202020202072657475726e2066697273740a0a20202020646566207665726966792870726f706f73616c293a0a20202020202020207472793a0a202020202020202020202020696e646570656e64656e74203d207265616428290a202020202020202065786365707420676c2e766d2e557365724572726f72206173206572726f723a0a20202020202020202020202072657475726e206e6f74206973696e7374616e63652870726f706f73616c2c20676c2e766d2e52657475726e2920616e6420676574617474722870726f706f73616c2c20276d657373616765272c204e6f6e6529203d3d206572726f722e6d6573736167650a202020202020202065786365707420457863657074696f6e3a0a20202020202020202020202072657475726e2046616c73650a202020202020202072657475726e206973696e7374616e63652870726f706f73616c2c20676c2e766d2e52657475726e2920616e6420656e636f64652870726f706f73616c2e63616c6c6461746129203d3d20656e636f646528696e646570656e64656e74290a0a2020202072657475726e20676c2e766d2e72756e5f6e6f6e6465745f756e7361666528726561642c20766572696679290a0a0a6465662073616d706c655f72616e6b2872616e646f6d6e6573732c20726f737465725f6469676573742c20726f756e645f6e756d6265722c20636f756e74293a0a202020206365696c696e67203d2031203c3c203235360a202020206375746f6666203d206365696c696e67202d206365696c696e67202520636f756e740a202020206d6174657269616c203d20286227426561636f6e526f737465722d76315c3027202b20726f756e645f6e756d6265722e746f5f627974657328382c20276269672729202b0a2020202020202020202020202020202062797465732e66726f6d68657828726f737465725f64696765737429202b2062797465732e66726f6d6865782872616e646f6d6e65737329290a20202020666f7220726574727920696e2072616e6765283332293a0a202020202020202063616e646964617465203d20696e742e66726f6d5f627974657328736861323536286d6174657269616c202b206279746573285b72657472795d29292e64696765737428292c202762696727290a202020202020202069662063616e646964617465203c206375746f66663a0a20202020202020202020202072657475726e2063616e646964617465202520636f756e740a202020206661696c28274e6f2073616d706c6520696e20686173682062756467657427290a0a0a636c61737320426561636f6e526f7374657228676c2e436f6e7472616374293a0a20202020726f737465723a207374720a20202020726f756e645f6e756d6265723a207536340a202020207365616c65645f61743a207536340a202020206d61746368696e67733a207536340a20202020726573756c743a207374720a0a20202020646566205f5f696e69745f5f2873656c662c20726f737465723a20737472293a0a202020202020202063616e6f6e6963616c203d20726f737465725f66726f6d28726f73746572290a2020202020202020636f756e74203d20636f756e745f6d61746368696e67732863616e6f6e6963616c290a2020202020202020696620636f756e74203d3d20303a0a2020202020202020202020206661696c28274e6f20636f6d706c65746520656c696769626c652061737369676e6d656e7427290a20202020202020207365616c6564203d206e6f775f7365636f6e647328290a20202020202020206966207365616c6564203c2047454e455349533a0a2020202020202020202020206661696c28275472616e73616374696f6e2074696d65206265666f726520626561636f6e2067656e6573697327290a202020202020202073656c662e726f73746572203d20656e636f64652863616e6f6e6963616c290a202020202020202073656c662e6d61746368696e6773203d2075363428636f756e74290a202020202020202073656c662e7365616c65645f6174203d20753634287365616c6564290a202020202020202073656c662e726f756e645f6e756d626572203d207536342831202b20287365616c6564202b20445241575f44454c4159202d2047454e45534953202b20504552494f44202d203129202f2f20504552494f44290a202020202020202073656c662e726573756c74203d2027270a0a20202020646566205f617661696c61626c655f61742873656c66293a0a202020202020202072657475726e2047454e45534953202b2028696e742873656c662e726f756e645f6e756d62657229202d203129202a20504552494f440a0a2020202040676c2e7075626c69632e77726974650a2020202064656620647261772873656c6629202d3e204e6f6e653a0a202020202020202069662073656c662e726573756c743a0a2020202020202020202020206661696c282741737369676e6d656e7420616c726561647920647261776e27290a20202020202020206966206e6f775f7365636f6e64732829203c2073656c662e5f617661696c61626c655f617428293a0a2020202020202020202020206661696c2827426561636f6e20726f756e64206e6f742064756527290a2020202020202020726f756e645f6e756d626572203d20696e742873656c662e726f756e645f6e756d626572290a2020202020202020626561636f6e203d206f62736572766528726f756e645f6e756d626572290a202020202020202072616e6b203d2073616d706c655f72616e6b28626561636f6e5b2772616e646f6d6e657373275d2c207368613235362873656c662e726f737465722e656e636f64652829292e68657864696765737428292c0a202020202020202020202020202020202020202020202020202020726f756e645f6e756d6265722c20696e742873656c662e6d61746368696e677329290a202020202020202073656c662e726573756c74203d20656e636f6465287b27626561636f6e273a20626561636f6e2c202772616e6b273a2072616e6b2c202761737369676e6d656e74273a20756e72616e6b286a736f6e2e6c6f6164732873656c662e726f73746572292c2072616e6b297d290a0a2020202040676c2e7075626c69632e766965770a20202020646566206765745f73746174652873656c6629202d3e20646963743a0a202020202020202072657475726e207b27726f73746572273a206a736f6e2e6c6f6164732873656c662e726f73746572292c2027726f737465725f736861323536273a207368613235362873656c662e726f737465722e656e636f64652829292e68657864696765737428292c0a20202020202020202020202020202020276d61746368696e6773273a20696e742873656c662e6d61746368696e6773292c20277365616c65645f6174273a20696e742873656c662e7365616c65645f6174292c0a2020202020202020202020202020202027726f756e64273a20696e742873656c662e726f756e645f6e756d626572292c2027617661696c61626c655f6174273a2073656c662e5f617661696c61626c655f617428292c0a2020202020202020202020202020202027726573756c74273a206a736f6e2e6c6f6164732873656c662e726573756c74292069662073656c662e726573756c7420656c7365204e6f6e657d0a0a2020202040676c2e7075626c69632e766965770a202020206465662061737369676e6d656e745f61742873656c662c2072616e6b3a20696e7429202d3e20646963743a0a2020202020202020696620747970652872616e6b29206973206e6f7420696e74206f72206e6f742030203c3d2072616e6b203c20696e742873656c662e6d61746368696e6773293a0a2020202020202020202020206661696c2827496e76616c69642061737369676e6d656e742072616e6b27290a202020202020202072657475726e20756e72616e6b286a736f6e2e6c6f6164732873656c662e726f73746572292c2072616e6b290ab8df0e04617267730db40d6272313a7b227461736b73223a5b226162737472616374222c2262656e63686d61726b222c2264617461222c226d6574686f6473225d2c22726576696577657273223a5b22616d79222c2262656e222c2263616d222c22646576225d2c22656c696769626c65223a7b226162737472616374223a5b22616d79222c2263616d222c22646576225d2c2262656e63686d61726b223a5b22616d79222c2262656e225d2c2264617461223a5b2262656e222c2263616d222c22646576225d2c226d6574686f6473223a5b22616d79222c2263616d225d7d7d000000000000000000000000000000008301e481a0bc4d7e6f4cf81a81917b6e5dd82e24a321fb316751ccebbe1200d4bdb0a4e78fa0016ecd47239f38be2d45cc23315e06ac841b5ca7e33eb85020a2d730bda5afcd"
+  },
+  "value_credited": false,
+  "current_timestamp": "1794839173",
+  "sender": "0x4286b1546383BA95cB3c49624578f73caf4F7aA5",
+  "recipient": "0x56B6Af18CB55a758EF64C638093f3b0D7c97fDd3",
+  "tx_slot": "0",
+  "created_timestamp": "1794839136",
+  "random_seed": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "tx_id": "0x06d5a6573d9f6fc73f6b2e1c639a195bf40dd22657fb9aa28707d0d555d0e647",
+  "read_state_block_range": {
+    "activation_block": "0",
+    "processing_block": "0",
+    "proposal_block": "0"
+  },
+  "activator": "0x0533e32Ae90B9065476eB89C2Bb655eCD98764BD",
+  "last_leader": "0x0533e32Ae90B9065476eB89C2Bb655eCD98764BD",
+  "result_name": "MAJORITY_AGREE",
+  "tx_data": "f91f0eb91e2923207b2022446570656e6473223a202270792d67656e6c617965723a316a623435616138796e683261396339786e33623771716838736d3571393368776670376a716d7773666868386a707a3039683622207d0a66726f6d2067656e6c6179657220696d706f7274202a0a66726f6d206461746574696d6520696d706f7274206461746574696d652c2074696d657a6f6e650a66726f6d20686173686c696220696d706f7274207368613235360a696d706f7274206a736f6e0a696d706f72742072650a0a0a434841494e203d202735326462396261373065306363306636656166373830336464303734343761316635343737373335666433663636313739326261393436303063383465393731270a52454c415953203d20282768747470733a2f2f6170692e6472616e642e7368272c202768747470733a2f2f6472616e642e636c6f7564666c6172652e636f6d27290a47454e45534953203d20313639323830333336370a504552494f44203d20330a445241575f44454c4159203d203138300a4c4142454c203d2072275b412d5a612d7a302d395f2d5d7b312c32347d270a0a0a646566206661696c286d657373616765293a0a20202020726169736520676c2e766d2e557365724572726f72286d657373616765290a0a0a646566206e6f775f7365636f6e647328293a0a2020202064656c7461203d206461746574696d652e6e6f772874696d657a6f6e652e75746329202d206461746574696d6528313937302c20312c20312c20747a696e666f3d74696d657a6f6e652e757463290a2020202072657475726e2064656c74612e64617973202a203836343030202b2064656c74612e7365636f6e64730a0a0a64656620756e697175655f6b657973287061697273293a0a202020206f626a203d207b7d0a20202020666f72206b65792c2076616c756520696e2070616972733a0a20202020202020206966206b657920696e206f626a3a0a20202020202020202020202072616973652056616c75654572726f7228274475706c6963617465204a534f4e206b657927290a20202020202020206f626a5b6b65795d203d2076616c75650a2020202072657475726e206f626a0a0a0a64656620706172736528746578742c20726561736f6e293a0a202020207472793a0a202020202020202072657475726e206a736f6e2e6c6f61647328746578742c206f626a6563745f70616972735f686f6f6b3d756e697175655f6b657973290a202020206578636570742056616c75654572726f723a0a20202020202020206661696c28726561736f6e290a0a0a64656620656e636f64652864617461293a0a2020202072657475726e206a736f6e2e64756d707328646174612c20736f72745f6b6579733d547275652c20736570617261746f72733d28272c272c20273a2729290a0a0a646566206c6162656c732876616c756573293a0a2020202072657475726e20286973696e7374616e63652876616c7565732c206c6973742920616e642032203c3d206c656e2876616c75657329203c3d20313020616e640a202020202020202020202020616c6c286973696e7374616e63652876616c75652c207374722920616e642072652e66756c6c6d61746368284c4142454c2c2076616c75652920666f722076616c756520696e2076616c7565732920616e640a2020202020202020202020206c656e287365742876616c7565732929203d3d206c656e2876616c75657329290a0a0a64656620726f737465725f66726f6d2874657874293a0a202020206966206e6f7420746578742e7374617274737769746828276272313a2729206f72206c656e287465787429203e20343039363a0a20202020202020206661696c2827496e76616c696420726f7374657227290a20202020726f73746572203d20706172736528746578745b343a5d2c2027496e76616c696420726f7374657227290a202020206966206e6f74206973696e7374616e636528726f737465722c206469637429206f722073657428726f737465722920213d207b277461736b73272c2027726576696577657273272c2027656c696769626c65277d3a0a20202020202020206661696c2827496e76616c696420726f7374657227290a202020207461736b732c207265766965776572732c20656c696769626c65203d20726f737465725b277461736b73275d2c20726f737465725b27726576696577657273275d2c20726f737465725b27656c696769626c65275d0a202020206966206e6f74206c6162656c73287461736b7329206f72206e6f74206c6162656c732872657669657765727329206f72206c656e287461736b732920213d206c656e28726576696577657273293a0a20202020202020206661696c282750726f7669646520657175616c206e756d62657273206f662064697374696e6374207461736b7320616e642072657669657765727327290a202020206966206e6f74206973696e7374616e636528656c696769626c652c206469637429206f722073657428656c696769626c652920213d20736574287461736b73293a0a20202020202020206661696c282750726f7669646520656c69676962696c69747920666f72206576657279207461736b27290a20202020666f7220726f7720696e20656c696769626c652e76616c75657328293a0a2020202020202020696620286e6f74206973696e7374616e636528726f772c206c69737429206f72206e6f742031203c3d206c656e28726f7729203c3d206c656e2872657669657765727329206f720a20202020202020202020202020202020616e79286e6f74206973696e7374616e63652876616c75652c2073747229206f722076616c7565206e6f7420696e2072657669657765727320666f722076616c756520696e20726f7729206f720a202020202020202020202020202020206c656e2873657428726f77292920213d206c656e28726f7729293a0a2020202020202020202020206661696c2827496e76616c696420656c696769626c65207265766965776572206c69737427290a2020202072657475726e207b277461736b73273a20736f72746564287461736b73292c2027726576696577657273273a20736f7274656428726576696577657273292c0a20202020202020202020202027656c696769626c65273a207b7461736b3a20736f7274656428726f772920666f72207461736b2c20726f7720696e20656c696769626c652e6974656d7328297d7d0a0a0a646566206f7074696f6e7328726f73746572293a0a20202020726576696577657273203d207b72657669657765723a2031203c3c20697820666f722069782c20726576696577657220696e20656e756d657261746528726f737465725b27726576696577657273275d297d0a2020202072657475726e205b5b7265766965776572735b72657669657765725d20666f7220726576696577657220696e20726f737465725b27656c696769626c65275d5b7461736b5d5d20666f72207461736b20696e20726f737465725b277461736b73275d5d0a0a0a64656620636f756e74657228726f7773293a0a202020206d656d6f203d207b7d0a0a2020202064656620636f756e74287461736b2c2072656d61696e696e67293a0a20202020202020206966207461736b203d3d206c656e28726f7773293a0a20202020202020202020202072657475726e20310a20202020202020206b6579203d20287461736b2c2072656d61696e696e67290a20202020202020206966206b6579206e6f7420696e206d656d6f3a0a2020202020202020202020206d656d6f5b6b65795d203d2073756d28636f756e74287461736b202b20312c2072656d61696e696e67205e206269742920666f722062697420696e20726f77735b7461736b5d2069662072656d61696e696e67202620626974290a202020202020202072657475726e206d656d6f5b6b65795d0a0a2020202072657475726e20636f756e740a0a0a64656620636f756e745f6d61746368696e677328726f73746572293a0a20202020726f7773203d206f7074696f6e7328726f73746572290a2020202072657475726e20636f756e74657228726f77732928302c202831203c3c206c656e28726f77732929202d2031290a0a0a64656620756e72616e6b28726f737465722c2072616e6b293a0a20202020726f7773203d206f7074696f6e7328726f73746572290a20202020636f756e74203d20636f756e74657228726f7773290a2020202072656d61696e696e67203d202831203c3c206c656e28726f77732929202d20310a2020202061737369676e6d656e74203d207b7d0a20202020666f72207461736b2c20726f7720696e20656e756d657261746528726f7773293a0a2020202020202020666f722062697420696e20726f773a0a20202020202020202020202069662072656d61696e696e672026206269743a0a20202020202020202020202020202020636f6d706c6574696f6e73203d20636f756e74287461736b202b20312c2072656d61696e696e67205e20626974290a2020202020202020202020202020202069662072616e6b203c20636f6d706c6574696f6e733a0a20202020202020202020202020202020202020207265766965776572203d20726f737465725b27726576696577657273275d5b6269742e6269745f6c656e6774682829202d20315d0a202020202020202020202020202020202020202061737369676e6d656e745b726f737465725b277461736b73275d5b7461736b5d5d203d2072657669657765720a202020202020202020202020202020202020202072656d61696e696e67205e3d206269740a2020202020202020202020202020202020202020627265616b0a2020202020202020202020202020202072616e6b202d3d20636f6d706c6574696f6e730a2020202020202020656c73653a0a2020202020202020202020206661696c282741737369676e6d656e742072616e6b20696e76617269616e7427290a2020202072657475726e2061737369676e6d656e740a0a0a64656620726561645f726f756e642872656c61792c20726f756e645f6e756d626572293a0a20202020726573706f6e7365203d20676c2e6e6f6e6465742e7765622e6765742866277b72656c61797d2f7b434841494e7d2f7075626c69632f7b726f756e645f6e756d6265727d27290a20202020696620726573706f6e73652e73746174757320213d20323030206f72206e6f742031203c3d206c656e28726573706f6e73652e626f647929203c3d20343039363a0a20202020202020206661696c2827426561636f6e20726f756e6420756e617661696c61626c6527290a202020207472793a0a202020202020202074657874203d20726573706f6e73652e626f64792e6465636f646528277574662d3827290a2020202065786365707420556e69636f64654572726f723a0a20202020202020206661696c2827496e76616c696420626561636f6e20726573706f6e736527290a2020202076616c7565203d20706172736528746578742c2027496e76616c696420626561636f6e20726573706f6e736527290a202020206966206e6f74206973696e7374616e63652876616c75652c206469637429206f7220747970652876616c75652e6765742827726f756e64272929206973206e6f7420696e74206f722076616c75655b27726f756e64275d20213d20726f756e645f6e756d6265723a0a20202020202020206661696c2827426561636f6e20726f756e64206d69736d6174636827290a202020207369676e61747572652c2072616e646f6d6e657373203d2076616c75652e67657428277369676e617475726527292c2076616c75652e676574282772616e646f6d6e65737327290a20202020696620286e6f74206973696e7374616e6365287369676e61747572652c2073747229206f72206e6f742072652e66756c6c6d617463682872275b302d39612d665d7b39367d272c207369676e617475726529206f720a2020202020202020202020206e6f74206973696e7374616e63652872616e646f6d6e6573732c2073747229206f72207368613235362862797465732e66726f6d686578287369676e617475726529292e686578646967657374282920213d2072616e646f6d6e657373293a0a20202020202020206661696c2827426561636f6e20646967657374206d69736d6174636827290a2020202072657475726e207b27726f756e64273a20726f756e645f6e756d6265722c20277369676e6174757265273a207369676e61747572652c202772616e646f6d6e657373273a2072616e646f6d6e6573737d0a0a0a646566206f62736572766528726f756e645f6e756d626572293a0a20202020646566207265616428293a0a202020202020202066697273742c207365636f6e64203d205b726561645f726f756e642872656c61792c20726f756e645f6e756d6265722920666f722072656c617920696e2052454c4159535d0a2020202020202020696620666972737420213d207365636f6e643a0a2020202020202020202020206661696c2827426561636f6e2072656c61797320646973616772656527290a202020202020202072657475726e2066697273740a0a20202020646566207665726966792870726f706f73616c293a0a20202020202020207472793a0a202020202020202020202020696e646570656e64656e74203d207265616428290a202020202020202065786365707420676c2e766d2e557365724572726f72206173206572726f723a0a20202020202020202020202072657475726e206e6f74206973696e7374616e63652870726f706f73616c2c20676c2e766d2e52657475726e2920616e6420676574617474722870726f706f73616c2c20276d657373616765272c204e6f6e6529203d3d206572726f722e6d6573736167650a202020202020202065786365707420457863657074696f6e3a0a20202020202020202020202072657475726e2046616c73650a202020202020202072657475726e206973696e7374616e63652870726f706f73616c2c20676c2e766d2e52657475726e2920616e6420656e636f64652870726f706f73616c2e63616c6c6461746129203d3d20656e636f646528696e646570656e64656e74290a0a2020202072657475726e20676c2e766d2e72756e5f6e6f6e6465745f756e7361666528726561642c20766572696679290a0a0a6465662073616d706c655f72616e6b2872616e646f6d6e6573732c20726f737465725f6469676573742c20726f756e645f6e756d6265722c20636f756e74293a0a202020206365696c696e67203d2031203c3c203235360a202020206375746f6666203d206365696c696e67202d206365696c696e67202520636f756e740a202020206d6174657269616c203d20286227426561636f6e526f737465722d76315c3027202b20726f756e645f6e756d6265722e746f5f627974657328382c20276269672729202b0a2020202020202020202020202020202062797465732e66726f6d68657828726f737465725f64696765737429202b2062797465732e66726f6d6865782872616e646f6d6e65737329290a20202020666f7220726574727920696e2072616e6765283332293a0a202020202020202063616e646964617465203d20696e742e66726f6d5f627974657328736861323536286d6174657269616c202b206279746573285b72657472795d29292e64696765737428292c202762696727290a202020202020202069662063616e646964617465203c206375746f66663a0a20202020202020202020202072657475726e2063616e646964617465202520636f756e740a202020206661696c28274e6f2073616d706c6520696e20686173682062756467657427290a0a0a636c61737320426561636f6e526f7374657228676c2e436f6e7472616374293a0a20202020726f737465723a207374720a20202020726f756e645f6e756d6265723a207536340a202020207365616c65645f61743a207536340a202020206d61746368696e67733a207536340a20202020726573756c743a207374720a0a20202020646566205f5f696e69745f5f2873656c662c20726f737465723a20737472293a0a202020202020202063616e6f6e6963616c203d20726f737465725f66726f6d28726f73746572290a2020202020202020636f756e74203d20636f756e745f6d61746368696e67732863616e6f6e6963616c290a2020202020202020696620636f756e74203d3d20303a0a2020202020202020202020206661696c28274e6f20636f6d706c65746520656c696769626c652061737369676e6d656e7427290a20202020202020207365616c6564203d206e6f775f7365636f6e647328290a20202020202020206966207365616c6564203c2047454e455349533a0a2020202020202020202020206661696c28275472616e73616374696f6e2074696d65206265666f726520626561636f6e2067656e6573697327290a202020202020202073656c662e726f73746572203d20656e636f64652863616e6f6e6963616c290a202020202020202073656c662e6d61746368696e6773203d2075363428636f756e74290a202020202020202073656c662e7365616c65645f6174203d20753634287365616c6564290a202020202020202073656c662e726f756e645f6e756d626572203d207536342831202b20287365616c6564202b20445241575f44454c4159202d2047454e45534953202b20504552494f44202d203129202f2f20504552494f44290a202020202020202073656c662e726573756c74203d2027270a0a20202020646566205f617661696c61626c655f61742873656c66293a0a202020202020202072657475726e2047454e45534953202b2028696e742873656c662e726f756e645f6e756d62657229202d203129202a20504552494f440a0a2020202040676c2e7075626c69632e77726974650a2020202064656620647261772873656c6629202d3e204e6f6e653a0a202020202020202069662073656c662e726573756c743a0a2020202020202020202020206661696c282741737369676e6d656e7420616c726561647920647261776e27290a20202020202020206966206e6f775f7365636f6e64732829203c2073656c662e5f617661696c61626c655f617428293a0a2020202020202020202020206661696c2827426561636f6e20726f756e64206e6f742064756527290a2020202020202020726f756e645f6e756d626572203d20696e742873656c662e726f756e645f6e756d626572290a2020202020202020626561636f6e203d206f62736572766528726f756e645f6e756d626572290a202020202020202072616e6b203d2073616d706c655f72616e6b28626561636f6e5b2772616e646f6d6e657373275d2c207368613235362873656c662e726f737465722e656e636f64652829292e68657864696765737428292c0a202020202020202020202020202020202020202020202020202020726f756e645f6e756d6265722c20696e742873656c662e6d61746368696e677329290a202020202020202073656c662e726573756c74203d20656e636f6465287b27626561636f6e273a20626561636f6e2c202772616e6b273a2072616e6b2c202761737369676e6d656e74273a20756e72616e6b286a736f6e2e6c6f6164732873656c662e726f73746572292c2072616e6b297d290a0a2020202040676c2e7075626c69632e766965770a20202020646566206765745f73746174652873656c6629202d3e20646963743a0a202020202020202072657475726e207b27726f73746572273a206a736f6e2e6c6f6164732873656c662e726f73746572292c2027726f737465725f736861323536273a207368613235362873656c662e726f737465722e656e636f64652829292e68657864696765737428292c0a20202020202020202020202020202020276d61746368696e6773273a20696e742873656c662e6d61746368696e6773292c20277365616c65645f6174273a20696e742873656c662e7365616c65645f6174292c0a2020202020202020202020202020202027726f756e64273a20696e742873656c662e726f756e645f6e756d626572292c2027617661696c61626c655f6174273a2073656c662e5f617661696c61626c655f617428292c0a2020202020202020202020202020202027726573756c74273a206a736f6e2e6c6f6164732873656c662e726573756c74292069662073656c662e726573756c7420656c7365204e6f6e657d0a0a2020202040676c2e7075626c69632e766965770a202020206465662061737369676e6d656e745f61742873656c662c2072616e6b3a20696e7429202d3e20646963743a0a2020202020202020696620747970652872616e6b29206973206e6f7420696e74206f72206e6f742030203c3d2072616e6b203c20696e742873656c662e6d61746368696e6773293a0a2020202020202020202020206661696c2827496e76616c69642061737369676e6d656e742072616e6b27290a202020202020202072657475726e20756e72616e6b286a736f6e2e6c6f6164732873656c662e726f73746572292c2072616e6b290ab8df0e04617267730db40d6272313a7b227461736b73223a5b226162737472616374222c2262656e63686d61726b222c2264617461222c226d6574686f6473225d2c22726576696577657273223a5b22616d79222c2262656e222c2263616d222c22646576225d2c22656c696769626c65223a7b226162737472616374223a5b22616d79222c2263616d222c22646576225d2c2262656e63686d61726b223a5b22616d79222c2262656e225d2c2264617461223a5b2262656e222c2263616d222c22646576225d2c226d6574686f6473223a5b22616d79222c2263616d225d7d7d00",
+  "tx_execution_hash": "0x8a3ec94a592529d15892ebc8fdc1ce0b006bd19debf089c8a1c83d5561969909",
+  "eq_blocks_outputs": "0xcdc6c28000c0c080c5c480c28000",
+  "messages": [],
+  "queue_type": "0",
+  "queue_position": "0",
+  "num_of_rounds": "1",
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0x0533e32Ae90B9065476eB89C2Bb655eCD98764BD",
+      "0xf20Cb474E5be2f56EA6Be925D057c28f458270da",
+      "0xB64c3Fa67e1f33aA1EFc721B7Ac763f2070fCcA3",
+      "0xc4Ab6B9D74c72EB38D43645318Bb4aFb518a09be",
+      "0xCCE41534BAa355c2C268Ebd9EFE4a9D395cd659B"
+    ],
+    "validator_votes_hash": [
+      "0x30080b391f50a4f9967bafb04124df228ab1b3bc8843c26ac602bf697a5a541b",
+      "0x8b7add03ab0cbcff49fd63e6c6ca843e3e93697d7624ffc1ce22a0a5f842d742",
+      "0x454c32fba423dcf4fff001b0a6fddc399f4a066bbb6f2285c0104007575e911e",
+      "0xfbcc8044e396bcdd42b3451a206eb8af7b1a6054e09cf9cdc70dbbbca62fed1f",
+      "0x3a9c63892617334177ca2ee555bc7bd7ece004d9a18470ed7564083fe88fd256"
+    ],
+    "validator_votes": [
+      1,
+      1,
+      5,
+      1,
+      5
+    ],
+    "validator_votes_name": [
+      "AGREE",
+      "AGREE",
+      "IDLE",
+      "AGREE",
+      "IDLE"
+    ]
+  }
+}

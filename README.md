@@ -28,3 +28,5 @@ node --test tests/rpc-preflight.test.cjs
 ```
 
 The hosted proof deploys a four-task example on StudioNet. A second signer attempts an early call and later settles after the scheduled round. An independent enumerator checks every feasible assignment, verifies the live beacon from both relays, and derives the expected rank and final assignment. The proof also checks the exact revert on redraw and the fresh deployed source bytes. Generic CLI transport is reused under MIT.
+
+[StudioNet proof receipts](proofs/README.md) · [Submission text](SUBMISSION.md).
